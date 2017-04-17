@@ -1,0 +1,109 @@
+body {
+    background: #f5f5f5;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+.noscript {
+    text-align: center;
+}
+
+.container {
+    width: 754px;
+    height: 370px;
+    margin: 20px auto;
+    padding: 50px 0;
+}
+
+*[hidden] {
+    display: none;
+}
+
+form {
+    margin: 66px 72px 0 72px;
+    border: 1px solid #E7E7E7;
+    background-color: #fff;
+    padding: 32px 64px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    padding-left: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+}
+
+#welcome, #end {
+    text-align: center;
+}
+
+#message {
+    padding: 2px;
+}
+
+#message span {
+    font-size: 1.2em;
+}
+
+.question {
+    margin-top: 15px;
+    line-height: 1.4em;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.error {
+    font-weight: 700;
+    color: #e95325;
+}
+
+button {
+    border-radius: 0px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f58b00;
+    padding: 8px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f57a00;
+}
+
+.navigate {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/********************************************/
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    form {
+        margin: 15px;
+    }
+
+    #next, #prev, #submit {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}

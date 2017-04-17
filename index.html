@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Questionnaire - Évaluation Formateur</title>
+    <meta name="author" content="© Glicer"/>
+    <meta name="description" content="Questionnaire de satisfaction - Évaluation Formateur"/>
+    <meta name="robots" content="noarchive"/>
+    <meta name="google" content="notranslate"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/training-form-font.css"/>
+</head>
+<body>
+
+<div class="container">
+    <noscript>
+        <div class="noscript error"><span>JavaScript désactivé !</span><br>
+            Ce site nécessite l'activation du JavaScript,<br>
+            veuillez l'activer dans votre navigateur Internet.
+        </div>
+    </noscript>
+    <div id="principal_section">
+        <form id="qform" method="post">
+            <div id="message"></div>
+
+            <div id="welcome">
+                <p>Vous venez de finir la formation et nous aimerions avoir votre avis.</p>
+
+                <p>Ceci est important pour nous, car cela peut nous aider à rendre les prochaines sessions
+                    plus motivantes et efficaces.</p>
+
+                <div class="navigate">
+                    <button id="start" type="button">Cliquez ici pour commencer<br>(15 questions)</button>
+                </div>
+            </div>
+
+
+            <fieldset id="quest1" hidden>
+                <div class="question">
+                    <span>1. Les objectifs de la formation ont-ils été clairement définis au début de la formation ?</span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q1" value="q1c1" id="q1c1" required/><label for="q1c1">Oui</label>
+                    </li>
+                    <li><input type="radio" name="q1" value="q1c2" id="q1c2" required/><label for="q1c2">Non</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset id="quest2" hidden>
+                <div class="question">
+                    <span>2. L’articulation entre les formateurs est-elle d’après vous pertinente ?</span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q2" value="q1c1" id="q2c1" required/><label for="q2c1">Oui</label>
+                    </li>
+                    <li><input type="radio" name="q2" value="q1c2" id="q2c2" required/><label for="q2c2">Non</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset id="quest3" hidden>
+                <div class="question">
+                    <span>3. Le niveau des formateurs vous a-t-il semblé : </span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q3" value="q3c1" id="q3c1" required/><label for="q3c1">Faible</label>
+                    </li>
+                    <li><input type="radio" name="q3" value="q3c2" id="q3c2" required/><label for="q3c2">Correct</label>
+                    </li>
+                    <li><input type="radio" name="q3" value="q3c3" id="q3c3" required/><label for="q3c3">Trop
+                        élevé</label></li>
+                </ul>
+            </fieldset>
+
+            <fieldset id="quest4" hidden>
+                <div class="question">
+                    <span>4. Les formateurs ont-ils tenu un langage :</span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q4" value="q4c1" id="q4c1" required/><label for="q4c1">Trop
+                        simple</label></li>
+                    <li><input type="radio" name="q4" value="q4c2" id="q4c2" required/><label for="q4c2">Adapté</label>
+                    </li>
+                    <li><input type="radio" name="q4" value="q4c3" id="q4c3" required/><label for="q4c3">Trop
+                        technique</label></li>
+                </ul>
+            </fieldset>
+
+            <fieldset id="quest5" hidden>
+                <div class="question">
+                    <span>5. Comment évalueriez-vous les compétences démontrées par les formateurs ?</span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q5" value="q5c1" id="q5c1" required/><label for="q5c1">Très
+                        compétents</label></li>
+                    <li><input type="radio" name="q5" value="q5c2" id="q5c2" required/><label for="q5c2">Peu
+                        compétents</label></li>
+                    <li><input type="radio" name="q5" value="q5c3" id="q5c3" required/><label for="q5c3">Pas
+                        compétents</label></li>
+                </ul>
+            </fieldset>
+
+            <fieldset id="quest6" hidden>
+                <div class="question">
+                    <span>6. L’alternance de moments de « théorie » avec des travaux pratiques vous a-t-elle semblé équilibrée ?</span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q6" value="q6c1" id="q6c1" required/><label for="q6c1">Oui</label>
+                    </li>
+                    <li><input type="radio" name="q6" value="q6c2" id="q6c2" required/><label for="q6c2">Non</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset id="quest7" hidden>
+                <div class="question">
+                    <span>7. Globalement, que pensez-vous de la disponibilité des formateurs ?</span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q7" value="q7c1" id="q7c1" required/><label for="q7c1">Très
+                        disponibles</label></li>
+                    <li><input type="radio" name="q7" value="q7c2" id="q7c2" required/><label for="q7c2">Peu
+                        disponibles</label></li>
+                    <li><input type="radio" name="q7" value="q7c3" id="q7c3" required/><label for="q7c3">Pas
+                        disponibles</label></li>
+                </ul>
+            </fieldset>
+
+            <fieldset id="quest8" hidden>
+                <div class="question">
+                    <span>8. Quelle partie de la formation auriez-vous souhaité voir plus développée ?</span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q8" value="q8c1" id="q8c1" required/><label for="q8c1">Partie 1</label>
+                    </li>
+                    <li><input type="radio" name="q8" value="q8c2" id="q8c2" required/><label for="q8c2">Partie 2</label>
+                    </li>
+                    <li><input type="radio" name="q8" value="q8c3" id="q8c3" required/><label for="q8c3">Partie 3</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset id="quest9" hidden>
+                <div class="question">
+                    <span>9. Selon vous, les objectifs de la formation ont-ils été atteints ?</span>
+                </div>
+                <ul>
+                    <li><input type="radio" name="q9" value="q9c1" id="q9c1" required/><label for="q9c1">Oui</label>
+                    </li>
+                    <li><input type="radio" name="q9" value="q9c2" id="q9c2" required/><label for="q9c2">Non</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+
+            <fieldset id="quest10" hidden>
+                <div class="question">
+                    <span>10. Merci d'indiquer vos commentaires :</span>
+                </div>
+                <ul>
+                    <li><label for="q10c1" hidden>Commentaires</label>
+                        <textarea id="q10c1" name="q10"  rows="4" cols="50" placeholder="Ici vos commentaires"></textarea>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <div id="end" hidden="">
+                <div id="msg">
+                </div>
+            </div>
+
+            <div class="navigate" id="nav_btn">
+                <button class="prev" type="button" id="prev" hidden>Précédent</button>
+                <button class="next" type="button" id="next" hidden>Suivant</button>
+                <button type="submit" id="submit" hidden>Envoyer</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script></script>
+<script type="text/javascript" src="http://cmn.glicer.com/js/jquery.min.js"></script>
+<script type="text/javascript" src="js/training-form.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+</body>
+</html>
