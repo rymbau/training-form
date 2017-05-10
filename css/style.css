@@ -16,6 +16,10 @@ body {
     padding: 50px 0;
 }
 
+*:focus {
+    outline: none !important;
+}
+
 *[hidden] {
     display: none;
 }
@@ -93,9 +97,37 @@ button:hover {
 
 /********************************************/
 
+a, button {
+    -webkit-transition: all .5s .1s;
+    -moz-transition: all .5s .1s;
+    transition: all .5s .1s;
+}
+
+footer {
+    font-family: Consolas, Verdana, Arial, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 30px 5px 30px 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #999;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+/********************************************/
+
 @media screen and (max-width: 767px) {
     .container {
         width: 100%;
+        height: auto;
     }
 
     form {
