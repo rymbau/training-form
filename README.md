@@ -4,7 +4,7 @@ jQuery/CSS Multi-Step Training Form
 
 ## Demo
 
-http://projects.glicer.com/training-form
+https://rymbau.github.io/training-form/
 
 
 ## Usage
